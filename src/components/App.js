@@ -11,7 +11,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <label>Enter your name:</label>
-        <input type="text" onClick={copyText} />
+        <input type="text" onChange={copyText} />
           <p>Hello {text}!</p>
 
     </div>
